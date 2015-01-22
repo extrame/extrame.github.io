@@ -447,6 +447,26 @@ a:hover {
   color: #2268b2;
 }
 
+.products > li {
+  display: inline-block;
+  padding: 40px;
+  background: #2e7bcf url(../images/header-bg.jpg) 0 0 repeat-x;
+  border-bottom: solid 1px #275da1;
+  color: white;
+  border-radius: 10px;
+  height: 70px; 
+  width: 180px;
+  margin-right: 10px; 
+}
+
+.products > li > a{
+  color: white;
+  }
+
+.danger {
+  color: yellow;
+}
+
 header {
   padding-top: 40px;
   padding-bottom: 40px;
